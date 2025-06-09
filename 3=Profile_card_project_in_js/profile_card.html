@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile_card</title>
+    <link rel="stylesheet" href="profile_card.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-...your-integrity-code..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- //Profile card -->
+    <div class="card_container">
+
+        <div class="profile_pic"><img src="IMG_20240711_221140 (1) (1)-min.jpg" alt="Profile image"></div>
+         <h1>Pankaj Nayak</h1>
+         <h4>Frontent-Developer in BTC</h4>
+
+         <div class="profile_links">
+         
+        <button class="button"> <i class="fa-solid fa-share"></i>   Share My Profile</button>
+         <button class="button_2">Follow Me</button>
+    
+         </div>
+         
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- What is a Modal?
+     A modal is a popup window or overlay that appears on top of the main content.
+     It's used to grab the user's attention and display important information,
+     forms, confirmation messages, etc., without leaving the current page. -->
+     
+    <div class="modal_container" id="modal">
+      <div class="heading">
+        <h1>Share My Profile</h1>
+        <span class="close" id="closeModal">&times;</span>
+      </div>
+      <div class="divider"></div>
+       <div class="share_links">
+         <!-- <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a> -->
+         <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+         <!-- <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a> -->
+         <a href="https://wa.me/7082823931" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+         
+         <a href="https://t.me/@Pankajcoder701" class="telegram"><i class="fa-brands fa-telegram"></i></a>
+         <a href="https://www.linkedin.com/in/pankaj-nayak-140323252/" 
+                  target="_blank" class="linkedin">
+                 <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+         <a href="https://github.com/pankajnayak009
+          
+                " target="_blank" class="github">
+                <i class="fa-brands fa-github"></i>
+             </a>
+      </div>
+    </div>
+    
+<!-- Background Blur Overlay -->
+<div class="overlay" id="overlay"></div>
+<script src="profile_card.js"></script>
+  </body>
+</html>

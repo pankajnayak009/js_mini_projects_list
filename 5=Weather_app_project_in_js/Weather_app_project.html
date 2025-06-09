@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Weather_app_project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="app_wrapper">
+      <h1>WEATHER APP</h1>
+
+      <!-- Buttons -->
+      <div class="Buttons_div">
+        <button class="style_btn" id="yourWeatherBtn">Your Weather</button>
+        <button class="style_btn" id="searchWeatherBtn">Search Weather</button>
+      </div>
+
+      <!-- Grant-location Container -->
+      <div class="grant_location_container" id="grantLocationContainer">
+        <img
+          src="fcc57757270fbcacb3ec70a4ec384d26-removebg-preview.png"
+          id="loader"
+          alt="Loading..."
+          style="width: 50px; height: 50px"
+          loading="lazy"
+        />
+
+        <p>Grant location Access</p>
+        <p>Allow Access to get weather information</p>
+
+        <button class="btn" id="grantAccessBtn">Grant Access</button>
+      </div>
+
+      <!-- Loader Container (global) -->
+      <div class="loading_container" id="globalLoader" style="display: none">
+        <img src="325 (8).gif" alt="Loading..." />
+        <p>Loading.....</p>
+      </div>
+
+      <!-- Your Weather Section -->
+      <div class="main_container active" id="yourWeatherSection">
+        <div class="wheater_info_div" id="yourWeatherInfo">
+          <div class="city_name_with_icon">
+            <h2 id="cityName">Your City</h2>
+            <!-- <i class="fa-solid fa-flag"></i> -->
+            <img
+              id="yourWeather_icon"
+              src="images.png"
+              alt="Country Flag"
+              style="width: 40px; height: 30px; margin-left: 10px"
+            />
+          </div>
+          <h2 id="weatherDesc">Weather</h2>
+          <!-- <i class="fa-solid fa-cloud-showers-water"></i> -->
+          <img
+            id="weatherIcon"
+            src="images__1_-removebg-preview.png"
+            alt="Weather Icon"
+            style="width: 100px; height: 100px"
+          />
+
+          <p id="temperature">Temperature</p>
+        </div>
+
+        <div class="weather_visual_box">
+          <div class="box_1">
+            <i class="fa-solid fa-wind"></i>
+            <h3>WINDSPEED</h3>
+            <p id="windSpeed">--</p>
+          </div>
+          <div class="box_1">
+            <i class="fa-solid fa-water"></i>
+            <h3>HUMIDITY</h3>
+            <p id="humidity">--</p>
+          </div>
+          <div class="box_1">
+            <i class="fa-solid fa-cloud"></i>
+            <h3>CLOUDS</h3>
+            <p id="clouds">--</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search Weather Section -->
+      <div class="Search_weather_button_container" id="searchWeatherSection">
+        <div class="search-button-with_placeholder">
+          <input
+            type="text"
+            id="Search_weather"
+            placeholder="Search for city..."
+          />
+          <button id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div class="main_container_2" id="searchWeatherInfoSection">
+          <div class="wheater_info_div" id="searchWeatherInfo">
+            <div class="city_name_with_icon">
+              <h2 id="searchCityName">City</h2>
+              <!-- <i class="fa-solid fa-flag"></i> -->
+              <img
+                id="searchFlagIcon"
+                src="download.png"
+                alt="Country Flag"
+                style="width: 40px; height: 30px; margin-left: 10px"
+              />
+            </div>
+            <h2 id="searchWeatherDesc">Weather</h2>
+            <!-- <i class="fa-solid fa-cloud-showers-water"></i> -->
+            <img
+              id="searchWeatherIcon"
+              src="fcc57757270fbcacb3ec70a4ec384d26-removebg-preview.png"
+              alt="Weather Icon"
+              style="width: 100px; height: 100px"
+            />
+
+            <p id="searchTemperature">Temperature</p>
+          </div>
+
+          <div class="weather_visual_box">
+            <div class="box_1">
+              <i class="fa-solid fa-wind"></i>
+              <h3>WINDSPEED</h3>
+              <p id="searchWindSpeed">--</p>
+            </div>
+            <div class="box_1">
+              <i class="fa-solid fa-water"></i>
+              <h3>HUMIDITY</h3>
+              <p id="searchHumidity">--</p>
+            </div>
+            <div class="box_1">
+              <i class="fa-solid fa-cloud"></i>
+              <h3>CLOUDS</h3>
+              <p id="searchClouds">--</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="Weather_app_project.js"></script>
+  </body>
+</html>
