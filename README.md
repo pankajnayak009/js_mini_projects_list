@@ -12,11 +12,13 @@ Each project is built with:
 
 1. **Profile Card Project**  
    [👉 Click here to view](3=Profile_card_project_in_js/profile_card.html)
+
 2. **Leet Metrics Project**  
    [👉 Click here to view](1=Leet_matric_projects_in_js/Leet_metrics.html)
 
 3. **Increment & Decrement Counter**  
    [👉 Click here to view](2=increment_and_dec.._in_js/incre_decrement.html)
+
 4. **Password Generator**  
    [👉 Click here to view](4=password_generator_in_js/password_generator.html)
 
@@ -34,4 +36,4 @@ Each project is built with:
 
 ## 🚀 Live Demo
 
-👉 [Visit the live site on GitHub Pages]([https://pankajnayak009.github.io/js_mini_projects_list/](https://pankajnayak009.github.io/js_mini_projects_list/)
+👉 [Visit the live site on GitHub Pages](https://pankajnayak009.github.io/js_mini_projects_list/)
