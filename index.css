@@ -11,6 +11,10 @@ body {
   justify-content: flex-start;
   min-height: 100vh;
   color: #333;
+  background-image: url(java-script-mobile-technology-concept-k5d3syess8euqx76.jpg);
+  background-size: cover; /* makes the image cover full background */
+  background-repeat: no-repeat; /* prevents repeating the image */
+  background-position: center; /* centers the image */
 }
 
 h1 {
