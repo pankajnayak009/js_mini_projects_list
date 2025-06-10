@@ -10,19 +10,19 @@ Each project is built with:
 
 ## 📂 Projects Included
 
-1. **Leet Metrics Project**  
+1. **Profile Card Project**  
+   [👉 Click here to view](3=Profile_card_project_in_js/profile_card.html)
+   
+3. **Leet Metrics Project**  
    [👉 Click here to view](1=Leet_matric_projects_in_js/Leet_metrics.html)
 
-2. **Increment & Decrement Counter**  
+4. **Increment & Decrement Counter**  
    [👉 Click here to view](2=increment_and_dec.._in_js/incre_decrement.html)
-
-3. **Profile Card Project**  
-   [👉 Click here to view](3=Profile_card_project_in_js/profile_card.html)
-
-4. **Password Generator**  
+   
+5. **Password Generator**  
    [👉 Click here to view](4=password_generator_in_js/password_generator.html)
 
-5. **Weather App Project**  
+6. **Weather App Project**  
    [👉 Click here to view](5=Weather_app_project_in_js/Weather_app_project.html)
 
 ## 🎯 Purpose
